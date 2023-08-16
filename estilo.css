@@ -1,0 +1,19 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+  }
+  img{margin: 10PX;}
+
+  h1, h2{
+    color: white;
+    text-shadow: 2px 2px 4px #9b9191;
+  }
+  p {outline-color:red;}
+  div{outline-color:red;}
+  .dotted {outline-style: dotted;}
+  a:focus {
+    outline: 2px dashed rgb(95, 15, 223);
+  }
+  li:hover {
+    background-color: #14da1e;
+  }
